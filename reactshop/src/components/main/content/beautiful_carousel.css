@@ -1,0 +1,17 @@
+.beautiful_slide {
+    height: 40em;
+    color: white;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beautiful_slide .text {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    font-size: 8em;
+    /* text-align: center; */
+    transform: translateX(-50%) translateY(-100%);
+}

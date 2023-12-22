@@ -1,0 +1,7 @@
+.sidebar {
+    background-color: grey;
+    color: white;
+    padding: 1em;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}

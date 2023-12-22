@@ -1,0 +1,54 @@
+@import '~leaflet/dist/leaflet.css';
+
+.contactForm {
+    /* display: inline; */
+    padding: 1em;
+    margin: 0.5em auto;
+    min-width: 50%;
+    max-width: 90%;
+    border-radius: 1em;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.phoneDisplay {
+    font-size: 2em;
+    text-align: center;
+}
+.phoneDisplay a {
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.phoneDisplay a:hover {
+    color: grey;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.phoneDisplay a:active {
+    color: white;
+    transform: scale(0.95);
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+.contactForm h2 {
+    text-align: center;
+}
+.contactForm form p {
+    display: flex;
+    gap: 0.5em;
+}
+.contactForm form input {
+    width: 100%;
+}
+.contactForm form textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 8em;
+}
+.contactForm form button[type="submit"] {
+    display: block;
+    margin: 0.1em auto;
+    /* padding: 1em; */
+}

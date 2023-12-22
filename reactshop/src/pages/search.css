@@ -1,0 +1,15 @@
+.main_search {
+    display: flex;
+    gap: 0.1em;
+    margin: auto;
+}
+
+.main_search input {
+    border-radius: 2px;
+    border-style: none;
+}
+
+.main_search button {
+    border-radius: 2px;
+    border-style: none;
+}

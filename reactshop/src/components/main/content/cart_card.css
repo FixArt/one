@@ -1,0 +1,38 @@
+.cart_card {
+    margin: 0.1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    overflow-y: hidden;
+    display: flex;
+    background-color: white;
+}
+.cart_card .card_image {
+    height: 100%;
+    object-fit: cover;
+    width: 20%;
+}
+
+.cart_card_about {
+    flex-grow: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_card_about p a {
+    /* display: block;s */
+    padding: 0.25em 0.5em;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1em;
+}
+
+.cart_card_about .grows {
+    flex-grow: 1;
+}
+
+.cart_card_about a {
+    font-size: 1.5em;
+    text-align: end;
+}

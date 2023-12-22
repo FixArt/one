@@ -1,0 +1,32 @@
+footer {
+    /* width: 100%; */
+    background-color: black;
+    color: white;
+    /* position: absolute; */
+    padding: 0.2em;
+    display: flex;
+    align-items: center;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    box-shadow: 0px 0px 5px black;
+}
+
+footer .grows {
+    flex-grow: 1;
+}
+
+.footer_navigation ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer_navigation li a {
+    color: white;
+    text-decoration: none;
+    margin: 1em;
+    transition: 0.1s;
+}
+.footer_navigation li a:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}

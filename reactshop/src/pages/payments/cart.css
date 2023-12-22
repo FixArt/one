@@ -1,0 +1,23 @@
+.cart_items {
+    list-style: none;
+    padding-left: 0;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.cart {
+    padding: 1em;
+}
+.cartHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cartHead p a {
+    padding: 0.5em 1em;
+    background-color: #0074d9;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1em;
+    font-weight: bold;
+    font-size: 1.25em;
+}

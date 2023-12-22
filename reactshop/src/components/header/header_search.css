@@ -1,0 +1,14 @@
+.header_search {
+    display: flex;
+    gap: 0.1em;
+}
+
+.header_search input {
+    border-radius: 2px;
+    border-style: none;
+}
+
+.header_search button {
+    border-radius: 2px;
+    border-style: none;
+}

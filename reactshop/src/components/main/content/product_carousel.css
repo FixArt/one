@@ -1,0 +1,7 @@
+.product_carousel {
+    display: flex;
+    list-style: none;
+    overflow-y: scroll;
+    align-items: stretch;
+    height: 40em;
+}

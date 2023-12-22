@@ -1,0 +1,63 @@
+.paymentTitle
+{
+    text-align: center;
+}
+
+.order_form_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.order_form {
+    display: inline-block;
+    width: auto;
+    padding: 1em;
+    margin: 0;
+    min-width: 50%;
+    max-width: 90%;
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.order_form input, .order_form select {
+    border-radius: 5px;
+    border: solid 1px grey;
+    padding: 5px;
+    margin: 1px;
+}
+
+.order_form button[type="submit"] {
+    display: block;
+    margin: 0.1em auto;
+    font-size: 1.1em;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: white;
+    border: none;
+    box-shadow: 0 0 4px black;
+}
+
+/* .order_form input
+{
+    width: 100%;
+} */
+
+.order_form_section {
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: white;
+    margin: 1em;
+    box-sizing: border-box;
+}
+.inline_section {
+    display: flex;
+    gap: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    /* margin: 2px; */
+}
+.hidden {
+    display: none;
+}

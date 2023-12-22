@@ -1,0 +1,7 @@
+.product_carousel_wrappable {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 40em;
+}

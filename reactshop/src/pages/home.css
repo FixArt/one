@@ -1,0 +1,12 @@
+.history h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.history p {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+    text-wrap: pretty;
+    font-size: 1.5em;
+}
